@@ -20,3 +20,9 @@ echo ""
 echo -e "\033[31mPHP version\033[0m"
 time php mandlebrot.php
 echo ""
+
+echo -e "\033[34mCleaning up...\033[0m"
+rm -f mandlebrot-c
+rm -f mandlebrot-go
+echo "Done."
+echo ""
